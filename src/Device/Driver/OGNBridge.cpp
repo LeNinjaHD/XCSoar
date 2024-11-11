@@ -13,8 +13,8 @@ public:
 bool
 OGNBridgeDevice::ParseNMEA(const char *String, NMEAInfo &info)
 {
-  LogString("Recieving NMEA: " + String);
-  LogString("NMEA Info: " + info);
+  LogString("Recieving NMEA: " + std::String(String));
+  //LogString("NMEA Info: " + info);
   return true;
 }
 
