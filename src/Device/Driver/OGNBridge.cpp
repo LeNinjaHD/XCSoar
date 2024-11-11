@@ -10,7 +10,7 @@ OGNBridgeCreateOnPort([[maybe_unused]] const DeviceConfig &config, [[maybe_unuse
   return new OGNBridgeDevice();
 }
 
-const struct DeviceRegister OGNBridge_driver = {
+const struct DeviceRegister ognbridge_driver = {
   _T("OGNBridge"),
   _T("OGNBridge"),
   0,
