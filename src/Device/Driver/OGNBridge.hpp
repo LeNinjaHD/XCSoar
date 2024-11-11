@@ -3,4 +3,4 @@
 
 #pragma once
 
-extern const struct DeviceRegister OGNBridge_driver;
+extern const struct DeviceRegister ognbridge_driver;
